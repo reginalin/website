@@ -11,7 +11,7 @@ I built and deployed my personal portfolio website and blog using Next.js, Netli
 
 If you’re familiar with Javascript and React, Next.js is a good React framework to explore in developing your website. It handles certain things out of the box for us, for example the code bundling and transpiling (using webpack and Babel, respectively) that is typically required for React apps.
 
-Next.js also handles pre-rendering, which means that it generates the HTML for page in advance. This allows for better app performance because pre-rendered pages can be loaded more quickly. Both static generation (SSG) and server-side rendering are supported by Next.js.
+Next.js also handles pre-rendering, which means that it generates the HTML for pages in advance. This allows for better app performance because pre-rendered pages can be loaded more quickly. Both static generation (SSG) and server-side rendering are supported by Next.js.
 
 ![server side rendering](https://nextjs.org/static/images/learn/data-fetching/server-side-rendering.png)
 
@@ -25,9 +25,9 @@ Hopefully by now you can see the value of using something like Next.js. In the n
 
 I followed the [starter tutorial](https://nextjs.org/learn/basics/create-nextjs-app) in the official Next.js docs (version 9.3). It's a great guide and within a few hours you will have a live site that looks something like [this](https://next-learn-starter.now.sh/).
 
-Using a React framework like Next.js forces you to structure your application a certain way.But this is required to get some cool functionality out of the box. For example, in order to create each page, you add a file under the `pages` directory and automatically get a route to that page. Next.js also supports dynamic routes if you choose to add brackets to a page filename, like `pages/post/[postid].js`.
+Using a React framework like Next.js forces you to structure your application a certain way. But this is required to get some cool functionality out of the box. For example, in order to create each page, you add a file under the `pages` directory and automatically get a route to that page. Next.js also supports dynamic routes if you choose to add brackets to a page filename, like `pages/post/[postid].js`.
 
-Static generation with data in Next.js can be achieved by simply exporting an `async` fucntion called `getStaticProps` within any page component that you wish to statically generate. In production, `getStaticProps` will run at build time to provide the props, or data, that is needed to generate the page.
+Static generation with data in Next.js can be achieved by simply exporting an `async` function called `getStaticProps` within any page component that you wish to statically generate. In production, `getStaticProps` will run at build time to provide the props, or data, that is needed to generate the page.
 
 These are the main things I noted as I went through the tutorial, but there are many more cool features you can explore yourself in the official documentation.
 
