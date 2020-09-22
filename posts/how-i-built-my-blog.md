@@ -53,7 +53,7 @@ Then, in `package.json`, under `scripts` and `"start"`, add:
 "export": "next export"
 ```
 
-Now, create a Netlify account, and click "New site from Git". Follow the steps to set up your repo and click "Deploy site". Now, your site will be live!
+Next, create a Netlify account, and click "New site from Git". Follow the steps to set up your repo and click "Deploy site". Now your site will be live!
 
 What I liked about using Netlify was how easy it was to set up continuous integration. Through the Netlify UI, I was able to easily set up my app to re-deploy upon merge to my repo's master branch. Now, any time I make changes to my site and merge on Github, the changes will be live within seconds.
 
@@ -63,7 +63,7 @@ By now, you should have a site hosted at `[name-of-your-site].netlify.app`. Beca
 
 ![dns](https://kinsta.com/wp-content/uploads/2018/05/what-is-dns-1024x512.png)
 
-A DNS is like a phone book that converts a readable domain name like `yourfunsite.com` to an IP address like 70.43.111.42. In this case, I needed to point my site from `https://reginalin.com` to the Netlify address. (You can purchase your own custom domain off a site like [](www.godaddy.com). I picked [Cloudflare](https://www.cloudflare.com/) as my DNS because they are branded as a privacy-first consumer DNS service. They do not use browsing data to target ads, do not write querying IP addresses to disk, and wipe all logs within 24 hours to protect user data.
+A DNS is like a phone book that converts a readable domain name like `yourfunsite.com` to an IP address like 70.43.111.42. In this case, I needed to point my site from `https://reginalin.com` to the Netlify address. (You can purchase your own custom domain off a site like [GoDaddy](www.godaddy.com)). I picked [Cloudflare](https://www.cloudflare.com/) as my DNS because they are branded as a privacy-first consumer DNS service. They do not use browsing data to target ads, do not write querying IP addresses to disk, and wipe all logs within 24 hours to protect user data.
 
 Inside Cloudflare's DNS management page, add a `CNAME` with your Netlify site as the target and your custom domain as the name. A `CNAME` (stands for Canonical Name) record simply aliases one address to another.
 
