@@ -13,7 +13,7 @@ Django is a popular web framework that is very widely used. Companies like Insta
 
 (You don't have to be a Flask user to follow this tutorial, but I will be offering my own thoughts and comparisons throughout.)
 
-## Some Flask vs. Django musings
+## Some Flask vs. Django investigation
 
 (Skip this section if you want to just dive right into Django.)
 
