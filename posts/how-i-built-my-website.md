@@ -1,5 +1,5 @@
 ---
-title: 'How I Built and Deployed My Website'
+title: 'How I Built and Deployed My Website Using Next.js and Netlify'
 date: '2020-09-18'
 ---
 
