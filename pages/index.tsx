@@ -5,6 +5,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import { GetStaticProps } from 'next'
+import { GitHub } from 'react-feather'
 
 interface Props {
   allPostsData: {
@@ -28,8 +29,8 @@ export default function Home({ allPostsData }: Props) {
           City.
         </p>
         <p>
-          When I'm not coding, I can be found curled up with a good book,
-          exploring the city through food, or doing yoga at the park.
+          When I'm not coding, I can be found reading, doing yoga at the park,
+          or making digital doodles.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

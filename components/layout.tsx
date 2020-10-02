@@ -1,14 +1,15 @@
-import Head from "next/head";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
+import Head from 'next/head'
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link'
+import { GitHub, Linkedin, Twitter } from 'react-feather'
 
-const name = "Regina Lin";
-export const siteTitle = name;
+const name = 'Regina Lin'
+export const siteTitle = name
 
 interface Props {
-  children: React.ReactNode;
-  home?: boolean;
+  children: React.ReactNode
+  home?: boolean
 }
 
 export default function Layout({ children, home }: Props) {
@@ -59,6 +60,17 @@ export default function Layout({ children, home }: Props) {
         )}
       </header>
       <main>{children}</main>
+      <div className={styles.socialIcons}>
+        <a href="https://github.com/reginalin/">
+          <GitHub />
+        </a>
+        <a href="https://www.linkedin.com/in/reginalin">
+          <Linkedin />
+        </a>
+        <a href="https://twitter.com/reginalin714">
+          <Twitter />
+        </a>
+      </div>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
@@ -67,5 +79,5 @@ export default function Layout({ children, home }: Props) {
         </div>
       )}
     </div>
-  );
+  )
 }
