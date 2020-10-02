@@ -3,6 +3,7 @@ title: 'Learn Django By Building a Blog App'
 date: '2020-10-01'
 ---
 
+Welcome to my blog post about...building a blog!
 
 If you're a regular Flask user like me, you might be curious about other Python web frameworks and how they compare. I've been wanting to try out Django for a while now, so I thought it would be fun to try to build a simple project in Django.
 
