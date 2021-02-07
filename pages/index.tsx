@@ -28,10 +28,28 @@ export default function Home({ allPostsData }: Props) {
           <a href="https://www.keplergrp.com/">Kepler Group</a> in New York
           City.
         </p>
-        <p>
-          When I'm not coding, I can be found reading, doing yoga at the park,
-          or making digital doodles.
-        </p>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h2 className={utilStyles.headingLg}>Experience</h2>
+          <ul>
+            <li>
+              Computer Science @
+              <a href="https://www.upenn.edu/">University of Pennsylvania</a>
+            </li>
+            <li>
+              Roadtripper with @
+              <a href="https://roadtripnation.com/roadtrip/women-in-stem">
+                RoadTrip Nation
+              </a>
+            </li>
+            <li>
+              Global Information Security Analyst @
+              <a href="https://www.citigroup.com/citi/">Citi</a>
+            </li>
+            <li>
+              Student @<a href="https://girlswhocode.com/">Girls Who Code</a>
+            </li>
+          </ul>
+        </section>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

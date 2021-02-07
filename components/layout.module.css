@@ -26,9 +26,19 @@
 }
 
 .socialIcons {
+  margin-top: 3rem;
   text-align: center;
 }
 
 .socialIcons > * {
-  margin: 1rem;
+  margin: 1em;
+}
+
+.pageLinks {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pageLinks > * {
+  margin: .5em;
 }

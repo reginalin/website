@@ -59,6 +59,20 @@ export default function Layout({ children, home }: Props) {
           </>
         )}
       </header>
+      <div className={styles.pageLinks}>
+        <Link href="/projects">
+          <a>BIO</a>
+        </Link>
+        <Link href="/projects">
+          <a>PROJECTS</a>
+        </Link>
+        <Link href="/projects">
+          <a>BLOG</a>
+        </Link>
+        <Link href="/contact">
+          <a>CONTACT</a>
+        </Link>
+      </div>
       <main>{children}</main>
       <div className={styles.socialIcons}>
         <a href="https://github.com/reginalin/">
